@@ -79,6 +79,7 @@ body {
 
 .header {
   padding: 2.4rem 0;
+  z-index: 1;
 }
 .header__container {
   display: flex;
