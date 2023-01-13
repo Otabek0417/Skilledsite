@@ -1,0 +1,15 @@
+.footer {
+  background-color: #13183f;
+  padding: 2.4rem 0;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  a {
+    color: #ffff;
+    @include font(700, 1.8rem, 2.8rem, #ffffff);
+  }
+}
+
+

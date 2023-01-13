@@ -1,0 +1,50 @@
+.btn {
+  display: inline-block;
+  transition: all 0.3s;
+  border-radius: 28px;
+  padding: 1.4rem 3.1rem;
+  color: #ffffff;
+}
+.header__btn {
+  background: #13183f;
+}
+.header__btn:hover {
+  background: #666ca3;
+}
+
+.header__btn:active {
+  opacity: 0.5;
+  background: #666ca3;
+}
+
+.hero__btn {
+  @include font(700, 1.8rem, 2.8rem, #ffffff);
+  padding: 1.4rem 3.1rem;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.hero__btn:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.hero__btn:active {
+  opacity: 0.5;
+}
+
+.footer__btn {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+.footer__btn:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
